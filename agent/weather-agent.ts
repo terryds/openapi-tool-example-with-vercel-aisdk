@@ -10,12 +10,12 @@ import path from 'path';
 
 // Load the OpenAPI specification at startup
 const openapiSpec = fs.readFileSync(
-  path.join(process.cwd(), 'public', 'openapi-example.yml'),
+  path.join(process.cwd(), 'files', 'openapi-example.yml'),
   'utf-8'
 );
 
 export const weatherAgent = new Agent({
-  model: openai('gpt-4o-mini'),
+  model: openai('gpt-5-mini'),
   system: `You are a helpful assistant with expertise in the Open-Meteo Weather API. You have access to the following OpenAPI specification:
 
 <openapi_specification>

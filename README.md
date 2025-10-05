@@ -9,7 +9,7 @@ A production-ready AI agent built with **Vercel AI SDK** that can execute real A
 
 ## ✨ Features
 
-- 🤖 **AI-Powered Agent** - Uses GPT-4o-mini with Vercel AI SDK's experimental Agent API
+- 🤖 **AI-Powered Agent** - Uses GPT-5-mini with Vercel AI SDK's experimental Agent API
 - 📋 **Generic OpenAPI Tool** - Works with any OpenAPI 3.0 specification
 - 🔄 **Dynamic Base URL Extraction** - Automatically reads base URLs from OpenAPI specs
 - 🔐 **Authentication Support** - Handles API keys and custom headers
@@ -284,7 +284,7 @@ components:
 
 - **Framework:** Next.js 15
 - **AI SDK:** Vercel AI SDK (with experimental Agent API)
-- **LLM:** OpenAI GPT-4o-mini
+- **LLM:** OpenAI GPT-5-mini
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS
 - **Validation:** Zod
